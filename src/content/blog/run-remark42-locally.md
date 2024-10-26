@@ -1,18 +1,18 @@
 ---
 author: 小王爷
-pubDatetime: 2024-10-27T15:22:00Z
-modDatetime: 2024-10-27T15:22:00Z
-title: remark42 本地运行
-draft: false
+pubDatetime: 2024-10-27T15:22:00+08:00
+modDatetime: 2024-10-27T15:22:00+08:00
+title: "remark42 本地运行"
+draft: true
 tags:
   - remark42
 description:
-  在 remark42 官方文档和 Google 搜索的帮助下，我弄清楚了 remark42 评论站点的最小化部署方式。我只想要一个基本的 remark42 评论系统，不依赖 Docker，使用尽量小的内存，从而可以灵活的部署到我的 VPS 上。
+  "在 remark42 官方文档和 Google 搜索的帮助下，我弄清楚了 remark42 评论站点的最小化部署方式。我只想要一个基本的 remark42 评论系统，不依赖 Docker，使用尽量小的内存，从而可以灵活的部署到我的 VPS 上。"
 ---
 
-## remark42 本地运行
-
 在 remark42 官方文档和 Google 搜索的帮助下，我弄清楚了 remark42 评论站点的最小化部署方式。我只想要一个基本的 remark42 评论系统，不依赖 Docker，使用尽量小的内存，从而可以灵活的部署到我的 VPS 上。
+
+## remark42 本地运行
 
 ### 从二进制包运行
 

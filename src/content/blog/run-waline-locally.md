@@ -1,20 +1,22 @@
 ---
 author: 小王爷
-pubDatetime: 2024-10-28T15:22:00Z
-modDatetime: 2024-10-28T15:22:00Z
-title: Waline 本地运行
-draft: false
+pubDatetime: 2024-10-28T15:22:00+08:00
+modDatetime: 2024-10-28T15:22:00+08:00
+title: "Waline 本地运行"
+draft: true
 tags:
   - waline
 description:
-  在 waline 官方文档和 Google 搜索的帮助下，我弄清楚了 waline 评论站点的最小化部署方式。我只想要一个基本的 waline 评论系统，不依赖 Docker，使用尽量小的内存，从而可以灵活的部署到我的 VPS 上。
+  "在 waline 官方文档和 Google 搜索的帮助下，我弄清楚了 waline 评论站点的最小化部署方式。我只想要一个基本的 waline 评论系统，不依赖 Docker，使用尽量小的内存，从而可以灵活的部署到我的 VPS 上。"
 ---
-
-## Waline 本地运行
 
 在查阅 waline 官方文档和 waline 仓库 Issues 与 Discussions 的情况下，我弄清楚了 waline 评论站点的最小化部署方式。
 
 我只想要一个基本的 waline 评论系统，基于 SQLite，不依赖 Docker 和 LeanCloud，可以灵活的部署到我的 VPS 上。
+
+## Table of contents
+
+## Waline 本地运行
 
 ### 从源码运行
 
@@ -126,7 +128,7 @@ wget -P /opt/waline/data https://raw.githubusercontent.com/walinejs/waline/main/
 node node_modules/@waline/vercel/vanilla.js
 ```
 
-### 访问
+### 访问测试
 
 打开地址 [http://127.0.0.1:8360](http://127.0.0.1:8360) 测试评论功能，测试结果如下图：
 

@@ -1,18 +1,18 @@
 ---
 author: 小王爷
-pubDatetime: 2024-10-26T15:22:00Z
-modDatetime: 2024-10-26T15:22:00Z
-title: Memos 本地部署
+pubDatetime: 2024-10-26T21:38:00+08:00
+modDatetime: 2024-10-26T21:38:00+08:00
+title: "Memos 本地部署"
 draft: false
 tags:
   - memos
 description:
-  因 VPS 内存较小，不想通过 Docker 方式部署 memos 服务，所以找到了本地部署最省内存的方式，部署到 VPS 上。
+  "因 VPS 内存较小，不想通过 Docker 方式部署 memos 服务，所以找到了本地部署最省内存的方式，部署到 VPS 上。"
 ---
 
-## Memos 本地部署
-
 因 VPS 内存较小，不想通过 Docker 方式部署 memos 服务，所以找到了本地部署最省内存的方式，部署到 VPS 上。
+
+## Memos 本地部署
 
 1. 下载 Memos 二进制包
 
