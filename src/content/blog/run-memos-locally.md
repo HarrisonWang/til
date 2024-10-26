@@ -3,7 +3,7 @@ author: 小王爷
 pubDatetime: 2024-10-26T15:22:00Z
 modDatetime: 2024-10-26T15:22:00Z
 title: Memos 本地部署
-draft: true
+draft: false
 tags:
   - memos
 description:
