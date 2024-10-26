@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>小王爷</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -42,19 +42,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        我所学的东西，收集在 <a href="https://github.com/harrisonwang/til" class="hero-link">GitHub til</a> 仓库中，如果你感兴趣，可能也会喜欢我的博客 <a href="https://voxsay.com" class="hero-link">voxsay.com</a>。
       </p>
       {
         // only display if at least one social link is enabled
@@ -70,7 +58,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     <Hr />
 
     {
-      featuredPosts.length > 0 && (
+      SITE.showFeatured && featuredPosts.length > 0 && (
         <>
           <section id="featured">
             <h2>Featured</h2>
@@ -159,5 +147,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
+  }
+
+  .hero-link {
+    @apply font-semibold text-skin-accent;
   }
 </style>
