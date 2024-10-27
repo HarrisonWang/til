@@ -1,9 +1,9 @@
 ---
 author: 小王爷
-pubDatetime: 2024-10-27T15:22:00+08:00
-modDatetime: 2024-10-27T15:22:00+08:00
+pubDatetime: 2024-10-27T09:21:00+08:00
+modDatetime: 2024-10-27T09:21:00+08:00
 title: "remark42 本地运行"
-draft: true
+draft: false
 tags:
   - remark42
 description:
