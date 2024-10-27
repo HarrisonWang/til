@@ -44,9 +44,9 @@ $ export REMARK_URL=https://example.com
 # JWT 密钥
 $ export SECRET=****
 # 站点名称
-$ SITE=voxsay
+$ export SITE=****
 # 开启 emoji
-$ EMOJI=true
+$ export EMOJI=true
 # 管理员密码
 $ export ADMIN_PASSWD=****
 ```
