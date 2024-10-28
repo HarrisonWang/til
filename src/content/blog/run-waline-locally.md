@@ -1,9 +1,9 @@
 ---
 author: 小王爷
-pubDatetime: 2024-10-28T15:22:00+08:00
-modDatetime: 2024-10-28T15:22:00+08:00
+pubDatetime: 2024-10-28T21:48:00+08:00
+modDatetime: 2024-10-28T21:48:00+08:00
 title: "Waline 本地运行"
-draft: true
+draft: false
 tags:
   - waline
 description:
