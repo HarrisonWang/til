@@ -139,4 +139,4 @@ dmit.io 库存状态文本: Out of Stock
 dmit.io 暂无库存
 ```
 
-这个项目很好地展示了如何使用 DSL 来简化配置和提升代码可读性。完整代码已开源在 GitHub 
+这个项目很好地展示了如何使用 DSL 来简化配置和提升代码可读性。完整代码已开源在 [GitHub](https://github.com/harrisonwang/vps-watcher)。
